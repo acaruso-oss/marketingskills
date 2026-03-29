@@ -7,8 +7,8 @@ CRM platform for marketing, sales, and customer service.
 | Integration | Available | Notes |
 |-------------|-----------|-------|
 | API | ✓ | REST API for CRM, Marketing, Sales |
-| MCP | - | Not available |
-| CLI | ✓ | `hs` CLI for local development |
+| MCP | ✓ | Custom server at `tools/mcp/hubspot.js` |
+| CLI | ✓ | `tools/clis/hubspot.js` or `hs` CLI for local development |
 | SDK | ✓ | Official client libraries |
 
 ## Authentication

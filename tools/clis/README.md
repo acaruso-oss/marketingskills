@@ -55,6 +55,7 @@ Every CLI reads credentials from environment variables:
 | `google-ads` | `GOOGLE_ADS_TOKEN`, `GOOGLE_ADS_DEVELOPER_TOKEN`, `GOOGLE_ADS_CUSTOMER_ID` |
 | `google-search-console` | `GSC_ACCESS_TOKEN` |
 | `hotjar` | `HOTJAR_CLIENT_ID`, `HOTJAR_CLIENT_SECRET` |
+| `hubspot` | `HUBSPOT_API_TOKEN` |
 | `intercom` | `INTERCOM_API_KEY` |
 | `keywords-everywhere` | `KEYWORDS_EVERYWHERE_API_KEY` |
 | `kit` | `KIT_API_KEY`, `KIT_API_SECRET` |
@@ -153,6 +154,7 @@ DOMAINS=$(rewardful affiliates list | jq -r '.data[].email')
 | `google-ads.js` | Ads | [Google Ads](https://ads.google.com) |
 | `google-search-console.js` | SEO | [Google Search Console](https://search.google.com/search-console) |
 | `hotjar.js` | CRO | [Hotjar](https://hotjar.com) |
+| `hubspot.js` | CRM | [HubSpot](https://hubspot.com) |
 | `hunter.js` | Email Outreach | [Hunter.io](https://hunter.io) |
 | `instantly.js` | Email Outreach | [Instantly.ai](https://instantly.ai) |
 | `intercom.js` | Messaging | [Intercom](https://intercom.com) |
